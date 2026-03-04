@@ -27,10 +27,15 @@ A fun, interactive Magic 8 Ball app built with HTML, CSS and JavaScript. Ask a q
 magic-8-ball/
 ├── assets/
 │   ├── css/
-│   │   └── style.css
 │   ├── js/
-│   │   └── script.js
 │   └── favicon/
+│       ├── android-chrome-192x192.png
+│       ├── android-chrome-512x512.png
+│       └── (other icon files)
+├── sw.js
+├── site.webmanifest
+├── README.md
+├── LICENSE
 └── index.html
 ```
 ## 🚀 How to Run
