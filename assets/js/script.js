@@ -1,10 +1,17 @@
 const askButton = document.getElementById('askButton');
 const answerDiv = document.getElementById('answer');
+const popup = document.getElementById('popup');
 
 askButton.addEventListener('click',function(){
     askButton.classList.add('shake');
     setTimeout(() => askButton.classList.remove('shake'), 500);
     const userQuestion = document.getElementById('question').value;
+    if (userQuestion === '') {
+        popup.classList.remove('hidden');
+        return;
+    }
+    popup.classList.add('hidden');
+    
     let randomNumber = Math.floor(Math.random() * 8);
     let eightBall = '';
     switch(randomNumber){
@@ -37,3 +44,4 @@ askButton.addEventListener('click',function(){
 
     answerDiv.textContent = eightBall; 
 });
+
