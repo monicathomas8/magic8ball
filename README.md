@@ -3,7 +3,7 @@
 A fun, interactive Magic 8 Ball app built with HTML, CSS and JavaScript. Ask a question, shake the ball and get your answer!
 
 ## 🌐 Live Demo
-[Click here to try it!](YOUR GITHUB PAGES URL)
+[Click here to try it!](https://monicathomas8.github.io/magic8ball/)
 
 ## ✨ Features
 - Ask any yes/no question
