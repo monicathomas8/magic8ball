@@ -2,6 +2,8 @@ const askButton = document.getElementById('askButton');
 const answerDiv = document.getElementById('answer');
 
 askButton.addEventListener('click',function(){
+    askButton.classList.add('shake');
+    setTimeout(() => askButton.classList.remove('shake'), 500);
     const userQuestion = document.getElementById('question').value;
     let randomNumber = Math.floor(Math.random() * 8);
     let eightBall = '';
