@@ -1,6 +1,8 @@
 {
     "name": "Magic 8 Ball",
     "short_name": "8 Ball",
+    "start_url": "/magic8ball/",
+    "scope": "/magic8ball/",
     "icons": [{
         "src": "assets/favicon/android-chrome-192x192.png",
         "sizes": "192x192",
@@ -14,4 +16,3 @@
     "background_color": "#ece2a6",
     "display": "standalone"
 }
-

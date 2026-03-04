@@ -12,7 +12,7 @@ A fun, interactive Magic 8 Ball app built with HTML, CSS and JavaScript. Ask a q
 - Custom cartoon popup validation
 - Responsive cartoon design
 - Built with vanilla HTML, CSS & JavaScript
-- 📱 PWA — installable on mobile and desktop
+- 📱 PWA - installable on mobile and desktop
 - ⚡ Works offline
 
 ## 🛠️ Built With
