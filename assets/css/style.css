@@ -2,6 +2,7 @@ body {
   background-color: #ece2a6;
   font-family: 'Bangers', cursive;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -89,4 +90,22 @@ button:hover {
 
 .hidden {
   display: none;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #000000;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+footer a {
+  color: #000000;
+  text-decoration: none;
+  -webkit-text-stroke: 0.5px black;
+}
+
+footer a:hover {
+  color: #E1306C;
 }
