@@ -12,6 +12,8 @@ A fun, interactive Magic 8 Ball app built with HTML, CSS and JavaScript. Ask a q
 - Custom cartoon popup validation
 - Responsive cartoon design
 - Built with vanilla HTML, CSS & JavaScript
+- 📱 PWA — installable on mobile and desktop
+- ⚡ Works offline
 
 ## 🛠️ Built With
 - HTML5
@@ -28,13 +30,18 @@ magic-8-ball/
 │   │   └── style.css
 │   ├── js/
 │   │   └── script.js
-│   └── images/
+│   └── favicon/
 └── index.html
 ```
 ## 🚀 How to Run
 1. Clone the repo
 2. Open `index.html` in your browser
 3. Ask a question and shake the ball!
+
+## 📱 Install as an App
+1. Open the [live demo](YOUR GITHUB PAGES URL) in Chrome
+2. Look for the install icon in the address bar 🖥️
+3. Click install and enjoy!
 
 ## 👩‍💻 Author
 **Monica**
